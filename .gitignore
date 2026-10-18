@@ -1,0 +1,70 @@
+# Dependencies and package manager caches
+/node_modules/
+/.npm/
+/.pnpm-store/
+.pnp.*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Next.js / generated output
+/.next/
+/out/
+/build/
+/dist/
+/.vercel/
+/.turbo/
+/.cache/
+
+# Test reports and compiler caches
+/coverage/
+/playwright-report/
+/test-results/
+*.tsbuildinfo
+.eslintcache
+
+# Local secrets (the commented example templates ARE shared)
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.p12
+*.pfx
+*.key
+credentials.json
+service-account*.json
+
+# Logs and operating-system/editor files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Original third-party sample screenshots/video: LOCAL ONLY
+/references/screenshots/
+/references/video/
+/references/workspace/
+/references/private/
+/references/keyframes/
+/references/contact-sheet.jpg
+
+# Optional local progress exports and ad hoc dumps
+/local-data/
+/private/
+/backups/
+*.local.json
+
+# Do not commit ad-hoc root archives or captured recordings
+/*.zip
+/*.7z
+/*.mp4
+/*.mov
