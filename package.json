@@ -28,7 +28,7 @@
     "postcss": "8.5.3",
     "tailwindcss": "4.1.7",
     "tsx": "4.19.4",
-    "typescript": "5.8.3",
+    "typescript": "7.0.2",
     "vitest": "3.2.4"
   },
   "description": "Local-first, reusable Fast-Track Certification Cram Hub (early community preview)",
